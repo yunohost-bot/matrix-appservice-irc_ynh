@@ -27,7 +27,7 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 - Well-formated replies
 
 
-**Shipped version:** 0.32.1~ynh1
+**Shipped version:** 0.36.0~ynh1
 ## Disclaimers / important information
 
 WARNING: This bridge requires additional configuration in the configuration file.
