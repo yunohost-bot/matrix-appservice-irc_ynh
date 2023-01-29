@@ -15,7 +15,10 @@ Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) po
 
 ## Vue d’ensemble
 
-Ceci est une passerelle IRC pour Matrix. Cette passerelle passe tous les messages IRC à Matrix, et tous les messages Matrix à IRC. Elle est hautement configurable, et est actuellement uilisée par le serveur de Matrix.org pour connecter certains réseaux IRC populaires.
+Ceci est une passerelle IRC pour Matrix.
+
+Cette passerelle passe tous les messages IRC à Matrix, et tous les messages Matrix à IRC.
+Elle est hautement configurable, et est actuellement uilisée sur matrix.org pour connecter plusieurs réseaux IRC populaires.
 
 ### Features
 
@@ -25,11 +28,6 @@ Ceci est une passerelle IRC pour Matrix. Cette passerelle passe tous les message
 
 
 **Version incluse :** 0.32.1~ynh1
-
-## Captures d’écran
-
-![Capture d’écran de Matrix IRC Bridge](./doc/screenshots/example.jpg)
-
 ## Avertissements / informations importantes
 
 ATTENTION : Cette passerelle requiert une configuration supplémentaire dans son fichier de configuration.

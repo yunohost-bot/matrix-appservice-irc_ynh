@@ -15,7 +15,10 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-This is an IRC bridge for Matrix. This bridge will pass all IRC messages through to Matrix, and all Matrix messages through to IRC. It is highly configurable and is currently used on the matrix.org homeserver to bridge a number of popular IRC networks.
+This is an IRC bridge for Matrix. 
+
+This bridge will pass all IRC messages through to Matrix, and all Matrix messages through to IRC.
+It is highly configurable and is currently used on the matrix.org homeserver to bridge a number of popular IRC networks.
 
 ### Features
 
@@ -25,11 +28,6 @@ This is an IRC bridge for Matrix. This bridge will pass all IRC messages through
 
 
 **Shipped version:** 0.32.1~ynh1
-
-## Screenshots
-
-![Screenshot of Matrix IRC Bridge](./doc/screenshots/example.jpg)
-
 ## Disclaimers / important information
 
 WARNING: This bridge requires additional configuration in the configuration file.
