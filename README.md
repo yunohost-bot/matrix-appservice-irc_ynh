@@ -25,6 +25,11 @@ This is an IRC bridge for Matrix. This bridge will pass all IRC messages through
 
 
 **Shipped version:** 0.32.1~ynh1
+
+## Screenshots
+
+![Screenshot of Matrix IRC Bridge](./doc/screenshots/example.jpg)
+
 ## Disclaimers / important information
 
 WARNING: This bridge requires additional configuration in the configuration file.

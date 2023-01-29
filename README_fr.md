@@ -25,6 +25,11 @@ Ceci est une passerelle IRC pour Matrix. Cette passerelle passe tous les message
 
 
 **Version incluse :** 0.32.1~ynh1
+
+## Captures d’écran
+
+![Capture d’écran de Matrix IRC Bridge](./doc/screenshots/example.jpg)
+
 ## Avertissements / informations importantes
 
 ATTENTION : Cette passerelle requiert une configuration supplémentaire dans son fichier de configuration.
