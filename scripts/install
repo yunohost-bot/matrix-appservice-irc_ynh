@@ -110,13 +110,13 @@ ynh_script_progression --message="Setting up source files and building the app..
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$final_path"
-pushd "$final_path" >/dev/null || ynh_die
-	ynh_exec_as $app $ynh_node_load_PATH $ynh_npm i
-popd >/dev/null || ynh_die
-
 chmod 750 "$final_path"
 chmod -R o-rwx "$final_path"
 chown -R $app:$app "$final_path"
+
+pushd "$final_path" >/dev/null || ynh_die
+	ynh_exec_as $app $ynh_node_load_PATH $ynh_npm i
+popd >/dev/null || ynh_die
 
 #=================================================
 # ADD A CONFIGURATION
