@@ -6,6 +6,7 @@ It shall NOT be edited by hand.
 # Matrix IRC Bridge for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/matrix-appservice-irc.svg)](https://dash.yunohost.org/appci/app/matrix-appservice-irc) ![Working status](https://ci-apps.yunohost.org/ci/badges/matrix-appservice-irc.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/matrix-appservice-irc.maintain.svg)
+
 [![Install Matrix IRC Bridge with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=matrix-appservice-irc)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -28,16 +29,8 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 
 
 **Shipped version:** 0.36.0~ynh1
-## Disclaimers / important information
-
-WARNING: This bridge requires additional configuration in the configuration file.
-
-* You need a local Matrix-synapse server (Yunohost app available)
-* No connection to the Yunohost LDAP
-
 ## Documentation and resources
 
-* Official app website: <https://github.com/matrix-org/matrix-appservice-irc>
 * Official user documentation: <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
 * Official admin documentation: <https://matrix-org.github.io/matrix-appservice-irc/latest/bridge_setup>
 * Upstream app code repository: <https://github.com/matrix-org/matrix-appservice-irc>
