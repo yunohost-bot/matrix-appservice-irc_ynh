@@ -114,9 +114,6 @@ ynh_script_progression --message="Starting a systemd service..." --weight=1
 # Start a systemd service
 ynh_systemd_action --service_name="$app" --action="start" --log_path="/var/log/$app/$app.log" --line_match="Error: No IRC servers specified."
 
-ynh_print_warn "The bridge is successfully configured but non working yet!"
-ynh_print_warn "You need to edit the file $install_dir/config.yaml to add IRC networks."
-
 #=================================================
 # END OF SCRIPT
 #=================================================
