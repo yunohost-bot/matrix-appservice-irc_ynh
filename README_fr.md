@@ -34,7 +34,7 @@ Elle est hautement configurable, et est actuellement uilisée sur matrix.org pou
 * Documentation officielle utilisateur : <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
 * Documentation officielle de l’admin : <https://matrix-org.github.io/matrix-appservice-irc/latest/bridge_setup>
 * Dépôt de code officiel de l’app : <https://github.com/matrix-org/matrix-appservice-irc>
-* Documentation YunoHost pour cette app : <https://yunohost.org/app_matrix-appservice-irc>
+* YunoHost Store: <https://apps.yunohost.org/app/matrix-appservice-irc>
 * Signaler un bug : <https://github.com/YunoHost-Apps/matrix-appservice-irc_ynh/issues>
 
 ## Informations pour les développeurs
