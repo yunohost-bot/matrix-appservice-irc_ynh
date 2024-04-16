@@ -9,7 +9,7 @@ It shall NOT be edited by hand.
 
 [![Install Matrix IRC Bridge with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=matrix-appservice-irc)
 
-*[Read this README is other languages.](./ALL_README.md)*
+*[Read this README in other languages.](./ALL_README.md)*
 
 > *This package allows you to install Matrix IRC Bridge quickly and simply on a YunoHost server.*  
 > *If you don't have YunoHost, please consult [the guide](https://yunohost.org/install) to learn how to install it.*
@@ -28,7 +28,7 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 - Well-formated replies
 
 
-**Shipped version:** 0.36.0~ynh1
+**Shipped version:** 0.36.0~ynh2
 ## Documentation and resources
 
 - Official user documentation: <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
