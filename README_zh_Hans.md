@@ -3,7 +3,7 @@
 请勿手动编辑。
 -->
 
-# YunoHost 的 Matrix IRC Bridge
+# YunoHost 上的 Matrix IRC Bridge
 
 [![集成程度](https://dash.yunohost.org/integration/matrix-appservice-irc.svg)](https://dash.yunohost.org/appci/app/matrix-appservice-irc) ![工作状态](https://ci-apps.yunohost.org/ci/badges/matrix-appservice-irc.status.svg) ![维护状态](https://ci-apps.yunohost.org/ci/badges/matrix-appservice-irc.maintain.svg)
 
