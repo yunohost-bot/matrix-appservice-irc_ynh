@@ -28,7 +28,7 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 - Well-formated replies
 
 
-**Versi terkirim:** 0.36.0~ynh2
+**Versi terkirim:** 0.36.0~ynh3
 ## Dokumentasi dan sumber daya
 
 - Dokumentasi pengguna resmi: <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
