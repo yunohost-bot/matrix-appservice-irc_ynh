@@ -29,6 +29,7 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 
 
 **Versión proporcionada:** 2.0.1~ynh1
+
 ## Documentación e recursos
 
 - Documentación oficial para usuarias: <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
