@@ -29,7 +29,6 @@ Elle est hautement configurable, et est actuellement uilisée sur matrix.org pou
 
 
 **Version incluse :** 2.0.1~ynh1
-
 ## Documentations et ressources
 
 - Documentation officielle utilisateur : <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>

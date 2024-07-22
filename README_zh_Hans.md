@@ -29,7 +29,6 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 
 
 **分发版本：** 2.0.1~ynh1
-
 ## 文档与资源
 
 - 官方用户文档： <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
