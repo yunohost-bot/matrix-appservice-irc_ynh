@@ -28,7 +28,7 @@ Elle est hautement configurable, et est actuellement uilisée sur matrix.org pou
 - Réponses formattées proprement
 
 
-**Version incluse :** 0.36.0~ynh3
+**Version incluse :** 2.0.1~ynh1
 ## Documentations et ressources
 
 - Documentation officielle utilisateur : <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
