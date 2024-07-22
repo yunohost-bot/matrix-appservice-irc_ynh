@@ -46,6 +46,7 @@ ynh_script_progression --message="Setting up source files and building the app..
 
 # Download, check integrity, uncompress and patch the source from app.src
 ynh_setup_source --dest_dir="$install_dir"
+
 chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
 chown -R "$app:$app" "$install_dir"
@@ -61,7 +62,7 @@ chown -R "$app:$app" "$install_dir"
 #=================================================
 ynh_script_progression --message="Adding a configuration file..." --weight=1
 
-ynh_add_config --template="../conf/config.yaml" --destination="$install_dir/config.yaml"
+ynh_add_config --template="config.yaml" --destination="$install_dir/config.yaml"
 
 chmod 400 "$install_dir/config.yaml"
 chown "$app:$app" "$install_dir/config.yaml"

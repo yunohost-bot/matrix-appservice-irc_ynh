@@ -22,42 +22,17 @@ then
 	yunohost service remove $app
 fi
 
-#=================================================
-# STOP AND REMOVE SERVICE
-#=================================================
-ynh_script_progression --message="Stopping and removing the systemd service..." --weight=1
-
 # Remove the dedicated systemd config
 ynh_remove_systemd_config
-
-#=================================================
-# REMOVE LOGROTATE CONFIGURATION
-#=================================================
-ynh_script_progression --message="Removing logrotate configuration..." --weight=1
 
 # Remove the app-specific logrotate config
 ynh_remove_logrotate
 
-#=================================================
-# REMOVE DEPENDENCIES
-#=================================================
-ynh_script_progression --message="Removing dependencies..." --weight=1
-
 ynh_remove_nodejs
-
-#=================================================
-# SPECIFIC REMOVE
-#=================================================
-# REMOVE VARIOUS FILES
-#=================================================
-ynh_script_progression --message="Removing synapse app service..." --weight=6
 
 # Remove a directory securely
 ynh_secure_remove --file="/etc/matrix-$synapse_instance/app-service/$app.yaml"
 "/opt/yunohost/matrix-$synapse_instance/update_synapse_for_appservice.sh" || ynh_die --message="Synapse can't restart with the appservice configuration"
-
-# Remove the log files
-ynh_secure_remove --file="/var/log/$app"
 
 #=================================================
 # END OF SCRIPT

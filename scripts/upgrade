@@ -76,7 +76,7 @@ print(yaml.dump(c['ircService']['servers']))")
 
 ### Same as during install
 
-ynh_add_config --template="../conf/config.yaml" --destination="$install_dir/config.yaml"
+ynh_add_config --template="config.yaml" --destination="$install_dir/config.yaml"
 
 # Try to recover the previously configured IRC servers.
 python3 -c "import yaml
