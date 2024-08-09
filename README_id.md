@@ -33,7 +33,7 @@ It is highly configurable and is currently used on the matrix.org homeserver to 
 
 - Dokumentasi pengguna resmi: <https://matrix-org.github.io/matrix-appservice-irc/latest/usage>
 - Dokumentasi admin resmi: <https://matrix-org.github.io/matrix-appservice-irc/latest/bridge_setup>
-- Repositori kode aplikasi hulu: <https://github.com/matrix-org/matrix-appservice-irc>
+- Depot kode aplikasi hulu: <https://github.com/matrix-org/matrix-appservice-irc>
 - Gudang YunoHost: <https://apps.yunohost.org/app/matrix-appservice-irc>
 - Laporkan bug: <https://github.com/YunoHost-Apps/matrix-appservice-irc_ynh/issues>
 
