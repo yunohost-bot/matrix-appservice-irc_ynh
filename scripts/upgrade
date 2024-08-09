@@ -33,7 +33,8 @@ ynh_use_nodejs
 ynh_script_progression --message="Upgrading source files..." --weight=1
 
 # Download, check integrity, uncompress and patch the source from app.src
-ynh_setup_source --dest_dir="$install_dir"
+ynh_setup_source --dest_dir="$install_dir" --full_replace=1 \
+    --keep="config.yaml passkey.pem appservice-registration-irc.yaml"
 
 chmod 750 "$install_dir"
 chmod -R o-rwx "$install_dir"
@@ -67,8 +68,8 @@ python3 -c "import yaml
 with open('$install_dir/config.yaml') as c: c = yaml.load(c, Loader=yaml.SafeLoader)
 servers = yaml.safe_load('''$configured_servers''')
 c['ircService']['servers'] = servers
-print(yaml.dump(c))" > $install_dir/config.yaml.temp
-mv $install_dir/config.yaml.temp $install_dir/config.yaml
+print(yaml.dump(c))" > "$install_dir/config.yaml.temp"
+mv "$install_dir/config.yaml.temp" "$install_dir/config.yaml"
 
 chmod 400 "$install_dir/config.yaml"
 chown "$app:$app" "$install_dir/config.yaml"
